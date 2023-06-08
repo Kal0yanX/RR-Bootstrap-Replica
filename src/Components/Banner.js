@@ -6,7 +6,7 @@ import banner from './banner.webp';
 function Banner() {
   return (
 
-    <Card style={{ height: "100%", width: '13rem'}} className="bg-dark text-black">
+    <Card style={{ width: '13rem'}} className="bg-dark text-black">
       <Card.Img variant="right" src={banner} background-color="#deedd6" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>
